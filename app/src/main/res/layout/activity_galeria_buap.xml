@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    tools:context=".GaleriaBuap">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#DC0A1038"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#DC0A1038"
+                android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btncompu1"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Computacion"
+            android:textSize="8dp"
+            android:onClick="onClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            android:text="Administracion"
+            android:textSize="8dp"
+            android:id="@+id/btnAdmin1"
+            android:onClick="onClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            android:text="Fisico Matematicas"
+            android:textSize="8dp"
+            android:id="@+id/btnMate1"
+            android:onClick="onClick"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="right"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ubicateeh"/>
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/contenedorFragments1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

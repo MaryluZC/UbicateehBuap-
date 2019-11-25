@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuMapas">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#071a60"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ubicateeh"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/btnCaminando"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/caminar"/>
+            <Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caminando"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="50dp">
+
+            <ImageButton
+                android:id="@+id/btnBici"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bici" />
+            <Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Lobo-Bici"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnBus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bus"/>
+        <Text
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Lobo-bus"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

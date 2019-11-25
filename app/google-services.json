@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "450027943675",
+    "firebase_url": "https://spry-truck-239505.firebaseio.com",
+    "project_id": "spry-truck-239505",
+    "storage_bucket": "spry-truck-239505.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450027943675:android:8530db27760648d4",
+        "android_client_info": {
+          "package_name": "com.example.ubicateehbuap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450027943675-8j7b23p64ip09sojb74ahqmu9i357ddt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubicateehbuap",
+            "certificate_hash": "8585898387d9c880c835b581f58ed1db6f5f8892"
+          }
+        },
+        {
+          "client_id": "450027943675-gulkaumlsggeers78ibjv4edlohd0cc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN1zeuM6uKFmbBbhpyu7iVUB2s9Xjdc14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450027943675-gulkaumlsggeers78ibjv4edlohd0cc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
